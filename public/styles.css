@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Luna", cursive;
+}
+
+body {
+  background: rgb(255, 250, 250);
+  
+}
+
+header {
+  background-color: #f5ba13;
+  width: 100%;
+  padding: 16px 32px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  color:white;
+  font-family: "Luna", cursive;
+  
+}
+
+form.create-post {
+  position: relative;
+  width: 480px;
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+  padding: 15px;
+  margin: 30px auto 20px auto;
+}
+
+form.create-post input,
+form.create-post textarea {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  resize: none;
+  font-size: 20px;
+  font-family: "Luna", cursive;
+}
+
+form.create-post button {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  background: #f5ba13;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+  right: 18px;
+  bottom: -18px;
+  font-family: "Luna", cursive;
+}
+
+.note {
+  background:white;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px #ccc;
+  float: left;
+  padding: 10px;
+  margin: 16px;
+  width: 240px;
+  font-family: "Luna", cursive;
+}
+
+.note h1 {
+  font-size: 24px;
+  word-wrap: break-word;
+  margin-bottom: 7px;
+}
+
+.note p {
+  font-size: 16px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  margin-bottom: 10px;
+}
+
+
+.note button {
+  position: relative;
+  width: 36px;
+  height: 36px;
+  float: right;
+  margin-right: 10px;
+  color: #f5ba13;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+  font-family: "Luna", cursive;
+
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 5%;
+  font-family: "Luna", cursive;
+}
+
+footer p {
+  color: #ccc;
+}
